@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Darker_Grotesque } from 'next/font/google'
 import "./globals.css";
 
