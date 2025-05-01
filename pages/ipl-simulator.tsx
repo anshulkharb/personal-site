@@ -170,7 +170,7 @@ const IPLSimulator: React.FC = () => {
           <table className="w-full text-base text-left">
             <thead className="bg-gradient-to-r from-indigo-600 to-blue-500 text-white">
               <tr>
-                {["Team", "Played", "Won", "Lost", "Tied", "Points"].map((h) => (
+                {["Team", "Played", "Points", "Won", "Lost", "Tied"].map((h) => (
                   <th
                     key={h}
                     className="py-4 px-5 uppercase tracking-wider font-semibold text-center"
@@ -194,6 +194,9 @@ const IPLSimulator: React.FC = () => {
                     {t.team}
                   </td>
                   <td className="py-3 px-5 text-blue-600 text-center">{t.played}</td>
+                  <td className="py-3 px-5 font-bold text-indigo-900 text-center">
+                    {t.points}
+                  </td>
                   <td className="py-3 px-5 text-green-600 font-semibold text-center">
                     {t.won}
                   </td>
@@ -202,9 +205,6 @@ const IPLSimulator: React.FC = () => {
                   </td>
                   <td className="py-3 px-5 text-yellow-600 font-semibold text-center">
                     {t.tied}
-                  </td>
-                  <td className="py-3 px-5 font-bold text-indigo-900 text-center">
-                    {t.points}
                   </td>
                 </tr>
               ))}
