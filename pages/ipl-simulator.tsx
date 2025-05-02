@@ -72,7 +72,7 @@ const initialMatchData: Match[] = [
   { id: 48, team1: 'Kolkata Knight Riders',    team2: 'Delhi Capitals',             result: 'team1', upcoming: false },
   { id: 49, team1: 'Chennai Super Kings',      team2: 'Punjab Kings',               result: 'team2', upcoming: false },
   { id: 50, team1: 'Mumbai Indians',           team2: 'Rajasthan Royals',           result: 'team1', upcoming: false },
-  { id: 51, team1: 'Gujarat Titans',           team2: 'Sunrisers Hyderabad',        result: 'future', upcoming: true },
+  { id: 51, team1: 'Gujarat Titans',           team2: 'Sunrisers Hyderabad',        result: 'team1', upcoming: true },
   { id: 52, team1: 'Royal Challengers Bengaluru', team2: 'Chennai Super Kings',    result: 'future', upcoming: true },
   { id: 53, team1: 'Kolkata Knight Riders',    team2: 'Rajasthan Royals',           result: 'future', upcoming: true },
   { id: 54, team1: 'Punjab Kings',             team2: 'Lucknow Super Giants',       result: 'future', upcoming: true },
